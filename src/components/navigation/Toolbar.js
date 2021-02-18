@@ -1,51 +1,34 @@
 import React from "react";
 import styled from "styled-components";
-import { Link } from "react-router-dom";
 
 const Toolbar = () => {
   return (
     <Wrapper>
-      <Link to="/">
-        <img
-          className="logo"
-          src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/Logo_lMQcLZB4Wb9N.svg"
-          alt="Logo"
-        />
-      </Link>
-
+      <img
+        className="logo"
+        src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/Logo_lMQcLZB4Wb9N.svg"
+        alt="Logo"
+      />
       <nav>
         <ul className="nav_links">
-          <Link to="/">
-            <li>
-              <a>Services</a>
-            </li>
-          </Link>
-          <Link to="/about">
-            <li>
-              <a>Why us</a>
-            </li>
-          </Link>
-          <Link to="/about">
-            <li>
-              <a>Gallery</a>
-            </li>
-          </Link>
-          <Link to="/about">
-            <li>
-              <a>About us</a>
-            </li>
-          </Link>
-          <Link to="/about">
-            <li>
-              <a>Testimonials</a>
-            </li>
-          </Link>
+          <li>
+            <a>Services</a>
+          </li>
+          <li>
+            <a>Why us</a>
+          </li>
+          <li>
+            <a>Gallery</a>
+          </li>
+          <li>
+            <a>About us</a>
+          </li>
+          <li>
+            <a>Testimonials</a>
+          </li>
         </ul>
-
       </nav>
-      <Link to="/contact">
-        <BTN>Contact us</BTN>
-      </Link>
+      <BTN>Contact us</BTN>
     </Wrapper>
   );
 };
