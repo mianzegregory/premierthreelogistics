@@ -1,67 +1,52 @@
 import React from "react";
-import { isMobile } from "react-device-detect";
 import styled from "styled-components";
-import ship from "../../assets/ship.svg";
-import MobileMainSection from "./mobile/Main";
+import ship from "../../../assets/ship.svg";
 
-const MainSection = () => {
-  return isMobile ? (
-    <MobileMainSection />
-  ) : (
+const MobileMainSection = () => {
+  return (
     <SectionWrapper>
-      <Col>
-        <h1>
-          PREMIER THREE <br />
-          LOGISTICS
-        </h1>
-        <br />
-        <p>
-          One stop solution for all your logistics <br /> And shipping needs.
-        </p>
-        <br />
-        <br />
-        <div className="btn-row">
-          <ContactBTN>CONTACT US</ContactBTN>
-          <LearnMoreBTN>LEARN MORE</LearnMoreBTN>
-        </div>
-      </Col>
-      <Col>
-        <img src={ship} alt="ship image" />
-      </Col>
+      <h1>
+        PREMIER THREE <br />
+        LOGISTICS
+      </h1>
+      <br />
+      <p>
+        One stop solution for all your logistics <br /> And shipping needs.
+      </p>
+      <br />
+      <br />
+      <img src={ship} alt="ship image" />
+      <div className="btn-row">
+        <ContactBTN>CONTACT US</ContactBTN>
+        <LearnMoreBTN>LEARN MORE</LearnMoreBTN>
+      </div>
     </SectionWrapper>
   );
 };
 
-export default MainSection;
+export default MobileMainSection;
 
 //styles for the section
 const SectionWrapper = styled.section`
-  padding: 0 10%;
+  padding: 8% 5%;
+  margin: auto auto;
   width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-`;
-
-//Column
-const Col = styled.div`
-  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   h1,
   p {
-    text-align: left;
+    text-align: center;
     line-height: 1.6;
   }
   h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-family: "Ubuntu";
     font-weight: 600;
   }
   p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #7d7d7d;
     font-family: "Open Sans";
   }
@@ -70,7 +55,7 @@ const Col = styled.div`
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-right: 45%;
+    margin: 2rem;
   }
 `;
 
@@ -80,7 +65,8 @@ const ContactBTN = styled.button`
   padding: 0.7rem 1rem;
   border: solid 2px;
   border-color: #31b0c9;
-  font-size: 1rem;
+  font-size: 0.9rem;
+  margin: 0 0.4rem;
   font-weight: 600;
   text-decoration: none;
   display: inline-block;
