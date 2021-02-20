@@ -76,9 +76,6 @@ const ContactBTN = styled.button`
   background-color: #31b0c9;
   transition: 0.2s;
   font-weight: 600;
-  :hover {
-    font-size: 1.2rem;
-  }
 `;
 
 //learn more button
@@ -87,7 +84,7 @@ const LearnMoreBTN = styled.button`
   padding: 0.7rem 1rem;
   border: solid 2px;
   border-color: #31b0c9;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 600;
   text-decoration: none;
   display: inline-block;
@@ -96,7 +93,4 @@ const LearnMoreBTN = styled.button`
   background-color: #fff;
   transition: 0.2s;
   font-weight: 600;
-  :hover {
-    font-size: 1.2rem;
-  }
 `;
