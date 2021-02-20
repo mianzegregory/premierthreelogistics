@@ -12,16 +12,32 @@ const TeamSection = () => {
         <PersonCard>
           <div className="img-bg">
             <img
-              src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/person_placeholder_gYT9O-we_.png"
-              alt="person-img"
+              src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/team/jean_iPEeRKxcZsoy.png"
+              alt="Jean Tristan Mianze"
             />
           </div>
           <br />
           <hr />
-          <h3>Person's name</h3>
-          <p>Role within the company</p>
+          <br />
+          <h3>Jean Tristan Mianze</h3>
+          <p>Director & Logistics Specialist</p>
         </PersonCard>
         <PersonCard>
+          <div className="img-bg">
+            <img
+              src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/team/greg_6GeRaeR1Qv-b.png"
+              alt="Steeve Gregory Mianze"
+            />
+          </div>
+          <br />
+          <hr />
+          <br />
+          <h3>Steeve Gregory Mianze</h3>
+          <p>
+            UI/UX Designer & Web Developer
+          </p>
+        </PersonCard>
+        {/* <PersonCard>
           <div className="img-bg">
             <img
               src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/person_placeholder_gYT9O-we_.png"
@@ -30,21 +46,10 @@ const TeamSection = () => {
           </div>
           <br />
           <hr />
-          <h3>Person's name</h3>
-          <p>Role within the company</p>
-        </PersonCard>
-        <PersonCard>
-          <div className="img-bg">
-            <img
-              src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/person_placeholder_gYT9O-we_.png"
-              alt="person-img"
-            />
-          </div>
           <br />
-          <hr />
           <h3>Person's name</h3>
           <p>Role within the company</p>
-        </PersonCard>
+        </PersonCard> */}
       </div>
     </SectionWrapper>
   );
@@ -64,7 +69,6 @@ const SectionWrapper = styled.section`
   background-color: #fdfdfd;
   h2,
   p {
-    text-align: left;
     line-height: 1.6;
     text-align: center;
   }
@@ -99,9 +103,18 @@ const PersonCard = styled.div`
   h3,
   p {
     color: #1c74bb;
+    text-align: left;
+  }
+  h3 {
+    font-family: "Ubuntu";
+    font-size: 1.2rem;
+  }
+  p {
+    font-family: "Open Sans";
+    font-size: 0.8rem;
   }
   img {
-    height: 20rem;
+    height: 15rem;
   }
   .img-bg {
     background-color: #f1ceb3;
