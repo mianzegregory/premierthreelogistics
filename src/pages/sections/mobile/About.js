@@ -1,12 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import { isMobile } from "react-device-detect";
-import MobileAboutUsSection from "./mobile/About";
 
-const AboutUsSection = () => {
-  return isMobile ? (
-    <MobileAboutUsSection />
-  ) : (
+const MobileAboutUsSection = () => {
+  return (
     <SectionWrapper>
       <h2>ABOUT US</h2>
       <br />
@@ -30,7 +26,6 @@ const AboutUsSection = () => {
       </p>
       <br />
       <br />
-      <div className="card-row">
         <MVCard>
           <h3>MISSION</h3>
           <br />
@@ -47,18 +42,18 @@ const AboutUsSection = () => {
             with Exceptional services.
           </p>
         </MVCard>
-      </div>
     </SectionWrapper>
   );
 };
 
-export default AboutUsSection;
+export default MobileAboutUsSection;
 
 //styles for the section
 const SectionWrapper = styled.section`
-  padding: 0 10%;
-  width: 100vw;
+  padding: 8% 5%;
+  margin: auto auto;
   min-height: 100vh;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -70,22 +65,16 @@ const SectionWrapper = styled.section`
     line-height: 1.6;
   }
   h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-family: "Ubuntu";
     font-weight: 600;
   }
   p {
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     font-family: "Open Sans";
   }
   * {
     background-color: transparent;
-  }
-  .card-row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
   }
 `;
 
@@ -98,8 +87,8 @@ const MVCard = styled.div`
   justify-content: center;
   align-items: center;
   background-color: #fff !important;
-  padding: 3rem;
-  width: 40%;
+  padding: 2rem;
+  margin: 2rem;
   h3 {
     color: #000;
     text-align: center;
