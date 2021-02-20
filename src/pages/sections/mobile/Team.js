@@ -1,45 +1,40 @@
 import React from "react";
 import styled from "styled-components";
-import { isMobile } from "react-device-detect";
-import MobileTeamSection from "./mobile/Team";
 
-const TeamSection = () => {
-  return isMobile ? (
-    <MobileTeamSection />
-  ) : (
+const MobileTeamSection = () => {
+  return (
     <SectionWrapper>
       <h2>OUR TEAM</h2>
       <br />
       <p>Meet the wonderful team dedicated to running this company.</p>
       <br /> <br />
-      <div className="card-row">
-        <PersonCard>
-          <div className="img-bg">
-            <img
-              src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/team/jean_iPEeRKxcZsoy.png"
-              alt="Jean Tristan Mianze"
-            />
-          </div>
-          <br />
-          <hr />
-          <br />
-          <h3>Jean Tristan Mianze</h3>
-          <p>Director & Logistics Specialist</p>
-        </PersonCard>
-        <PersonCard>
-          <div className="img-bg" id="img-bg2">
-            <img
-              src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/team/greg_6GeRaeR1Qv-b.png"
-              alt="Steeve Gregory Mianze"
-            />
-          </div>
-          <br />
-          <hr />
-          <br />
-          <h3>Steeve Gregory Mianze</h3>
-          <p>UI/UX Designer & Web Developer</p>
-        </PersonCard>
-        {/* <PersonCard>
+      <PersonCard>
+        <div className="img-bg">
+          <img
+            src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/team/jean_iPEeRKxcZsoy.png"
+            alt="Jean Tristan Mianze"
+          />
+        </div>
+        <br />
+        <hr />
+        <br />
+        <h3>Jean Tristan Mianze</h3>
+        <p>Director & Logistics Specialist</p>
+      </PersonCard>
+      <PersonCard>
+        <div className="img-bg" id="img-bg2">
+          <img
+            src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/team/greg_6GeRaeR1Qv-b.png"
+            alt="Steeve Gregory Mianze"
+          />
+        </div>
+        <br />
+        <hr />
+        <br />
+        <h3>Steeve Gregory Mianze</h3>
+        <p>UI/UX Designer & Web Developer</p>
+      </PersonCard>
+      {/* <PersonCard>
           <div className="img-bg">
             <img
               src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/person_placeholder_gYT9O-we_.png"
@@ -52,17 +47,16 @@ const TeamSection = () => {
           <h3>Person's name</h3>
           <p>Role within the company</p>
         </PersonCard> */}
-      </div>
     </SectionWrapper>
   );
 };
 
-export default TeamSection;
+export default MobileTeamSection;
 
 //styles for the section
 const SectionWrapper = styled.section`
-  padding: 0 5%;
-  width: 100vw;
+  padding: 8% 5%;
+  margin: auto auto;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -75,23 +69,17 @@ const SectionWrapper = styled.section`
     text-align: center;
   }
   h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-family: "Ubuntu";
     font-weight: 600;
   }
   p {
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     color: #7d7d7d;
     font-family: "Open Sans";
   }
   * {
     background-color: transparent;
-  }
-  .card-row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
   }
 `;
 
@@ -109,7 +97,8 @@ const PersonCard = styled.div`
   }
   h3 {
     font-family: "Ubuntu";
-    font-size: 1.2rem;
+    font-size: 1rem;
+    margin-bottom: 3px;
   }
   p {
     font-family: "Open Sans";
