@@ -1,8 +1,12 @@
 import React from "react";
 import styled from "styled-components";
+import { isMobile } from "react-device-detect";
+import MobileGallerySection from "./mobile/Gallery";
 
 const GallerySection = () => {
-  return (
+  return isMobile ? (
+    <MobileGallerySection />
+  ) : (
     <SectionWrapper>
       <h2>GALLERY</h2>
       <br />
@@ -90,12 +94,6 @@ const SectionWrapper = styled.section`
     #img5 {
       height: 20rem;
       margin: 0.1rem;
-    }
-    .img_txt {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
     }
   }
 `;
