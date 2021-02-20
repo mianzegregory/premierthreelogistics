@@ -5,10 +5,14 @@ const GallerySection = () => {
   return (
     <SectionWrapper>
       <h2>GALLERY</h2>
+      <br />
       <p>
         Some of the products we delivered to our customers. Visit our social
+        <br />
         Media pages for more.
       </p>
+      <br />
+      <br />
       <div className="img-row">
         <img
           id="img1"
@@ -46,13 +50,28 @@ export default GallerySection;
 
 //styles for the section
 const SectionWrapper = styled.section`
-  padding: 0 5%;
+  padding: 10%;
   width: 100vw;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  h2,
+  p {
+    text-align: left;
+    line-height: 1.6;
+    text-align: center;
+  }
+  h2 {
+    font-size: 3rem;
+    font-family: "Ubuntu";
+    font-weight: 600;
+  }
+  p {
+    font-size: 1.5rem;
+    color: #7d7d7d;
+    font-family: "Open Sans";
+  }
   * {
     background-color: transparent;
   }
@@ -63,6 +82,14 @@ const SectionWrapper = styled.section`
     align-items: center;
     img {
       height: 5rem;
+    }
+    #img1,
+    #img2,
+    #img3,
+    #img4,
+    #img5 {
+      height: 20rem;
+      margin: 0.1rem;
     }
     .img_txt {
       display: flex;
