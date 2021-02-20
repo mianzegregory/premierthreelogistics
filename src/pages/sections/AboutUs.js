@@ -19,6 +19,22 @@ const AboutUsSection = () => {
         our portfolio continues to grow in large part due to our Director’s
         diversity, logistics expertise and dedication to customer service.
       </p>
+      <div className="card-row">
+        <MVCard>
+          <h3>MISSION</h3>
+          <p>
+            Provide our esteemed clientele with quality services that not only
+            meet but exceed their Expectations.
+          </p>
+        </MVCard>
+        <MVCard>
+          <h3>VISION</h3>
+          <p>
+            Build long-term relationships with our Customers and provide them
+            with Exceptional services.
+          </p>
+        </MVCard>
+      </div>
     </SectionWrapper>
   );
 };
@@ -29,7 +45,7 @@ export default AboutUsSection;
 const SectionWrapper = styled.section`
   padding: 0 5%;
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -41,5 +57,32 @@ const SectionWrapper = styled.section`
   }
   * {
     background-color: transparent;
+  }
+  .card-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+`;
+
+//mission and vision card
+const MVCard = styled.div`
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 0.5rem;
+  lex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff !important;
+  padding: 1rem;
+  width: 40%;
+  height: 15rem;
+  transform: translate(0, 21rem);
+  h2 {
+    color: #000;
+  }
+  p {
+    color: #707070;
   }
 `;
