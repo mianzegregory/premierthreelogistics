@@ -46,7 +46,6 @@ const Col = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
- 
   h1,
   p {
     text-align: left;

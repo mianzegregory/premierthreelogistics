@@ -8,22 +8,37 @@ const ServicesSection = () => {
   return (
     <SectionWrapper>
       <h2>OUR SERVICES</h2>
+      <br />
       <p>
-        We are dedicated to satisfying our customers with Our comprehensive list
-        of services
+        We are dedicated to satisfying our customers with
+        <br /> Our comprehensive list of services
       </p>
+      <br />
+      <br />
       <div className="img-row">
         <div className="img_txt">
           <img src={intl_freight} alt="plane" />
-          <p>International Freight</p>
+          <br />
+          <p>
+            International
+            <br /> Freight
+          </p>
         </div>
         <div className="img_txt">
           <img src={delivery} alt="plane" />
-          <p>Delivery of Goods</p>
+          <br />
+          <p>
+            Delivery of <br />
+            Goods
+          </p>
         </div>
         <div className="img_txt">
           <img src={customs_clearance} alt="plane" />
-          <p>Customs Clearance</p>
+          <br />
+          <p>
+            Customs <br />
+            Clearance
+          </p>
         </div>
       </div>
     </SectionWrapper>
@@ -41,19 +56,41 @@ const SectionWrapper = styled.section`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  h2,
+  p {
+    text-align: center;
+    line-height: 1.6;
+  }
+  h2 {
+    font-size: 3rem;
+    font-family: "Ubuntu";
+    font-weight: 600;
+  }
+  p {
+    font-size: 1.5rem;
+    color: #7d7d7d;
+    font-family: open-sans;
+  }
   .img-row {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     img {
-      height: 5rem;
+      height: 7rem;
+      margin: 0 3rem;
     }
     .img_txt {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
+    }
+    p {
+      color: #000;
+      font-size: 1.2rem;
+      font-weight: 700;
+      font-family: "Ubuntu";
     }
   }
 `;
