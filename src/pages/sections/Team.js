@@ -115,7 +115,7 @@ const PersonCard = styled.div`
     height: 12rem;
   }
   .img-bg {
-    background-color: #b3d6f1;
+    background-color: #b3f1ed;
     border-radius: 0.3rem;
   }
 `;
