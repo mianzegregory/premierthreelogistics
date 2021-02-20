@@ -3,9 +3,13 @@ import styled from "styled-components";
 import intl_freight from "../../assets/intl_freight.svg";
 import delivery from "../../assets/delivery.svg";
 import customs_clearance from "../../assets/customs_clearance.svg";
+import { isMobile } from "react-device-detect";
+import MobileServicesSection from "./mobile/Services";
 
 const ServicesSection = () => {
-  return (
+  return isMobile ? (
+    <MobileServicesSection />
+  ) : (
     <SectionWrapper>
       <h2>OUR SERVICES</h2>
       <br />
