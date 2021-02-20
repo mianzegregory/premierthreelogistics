@@ -68,7 +68,7 @@ const SectionWrapper = styled.section`
     font-weight: 600;
   }
   p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-family: "Open Sans";
   }
   * {

@@ -57,7 +57,7 @@ const Col = styled.div`
     font-weight: 600;
   }
   p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #7d7d7d;
     font-family: "Open Sans";
   }
