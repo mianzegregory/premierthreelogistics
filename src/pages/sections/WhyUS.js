@@ -69,7 +69,7 @@ const SectionWrapper = styled.section`
   }
   p {
     font-size: 1.5rem;
-    font-family: open-sans;
+    font-family: "Open Sans";
   }
   * {
     background-color: transparent;

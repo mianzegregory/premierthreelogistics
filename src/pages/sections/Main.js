@@ -59,7 +59,7 @@ const Col = styled.div`
   p {
     font-size: 1.5rem;
     color: #7d7d7d;
-    font-family: open-sans;
+    font-family: "Open Sans";
   }
   .btn-row {
     display: flex;

@@ -68,7 +68,7 @@ const SectionWrapper = styled.section`
   p {
     font-size: 1.5rem;
     color: #7d7d7d;
-    font-family: open-sans;
+    font-family: "Open Sans";
   }
   .img-row {
     display: flex;
