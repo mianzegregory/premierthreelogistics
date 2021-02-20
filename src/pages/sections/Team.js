@@ -33,9 +33,7 @@ const TeamSection = () => {
           <hr />
           <br />
           <h3>Steeve Gregory Mianze</h3>
-          <p>
-            UI/UX Designer & Web Developer
-          </p>
+          <p>UI/UX Designer & Web Developer</p>
         </PersonCard>
         {/* <PersonCard>
           <div className="img-bg">
@@ -114,10 +112,10 @@ const PersonCard = styled.div`
     font-size: 0.8rem;
   }
   img {
-    height: 15rem;
+    height: 12rem;
   }
   .img-bg {
-    background-color: #f1ceb3;
+    background-color: #b3d6f1;
     border-radius: 0.3rem;
   }
 `;
