@@ -23,7 +23,7 @@ const TeamSection = () => {
           <p>Director & Logistics Specialist</p>
         </PersonCard>
         <PersonCard>
-          <div className="img-bg">
+          <div className="img-bg" id="img-bg2">
             <img
               src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/team/greg_6GeRaeR1Qv-b.png"
               alt="Steeve Gregory Mianze"
@@ -115,7 +115,10 @@ const PersonCard = styled.div`
     height: 12rem;
   }
   .img-bg {
-    background-color: #b3f1ed;
+    background-color: #b3d6f1;
     border-radius: 0.3rem;
+  }
+  #img-bg2 {
+    background-color: #b3f1ed;
   }
 `;
