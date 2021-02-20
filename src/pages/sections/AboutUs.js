@@ -78,7 +78,6 @@ const MVCard = styled.div`
   padding: 1rem;
   width: 40%;
   height: 15rem;
-  transform: translate(0, 21rem);
   h2 {
     color: #000;
   }

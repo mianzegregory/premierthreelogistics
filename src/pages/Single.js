@@ -4,6 +4,7 @@ import ServicesSection from "./sections/Services";
 import WhyUsSection from "./sections/WhyUS";
 import GallerySection from "./sections/Gallery";
 import AboutUsSection from "./sections/AboutUs";
+import TeamSection from "./sections/Team";
 
 const MainPage = () => {
   return (
@@ -13,6 +14,7 @@ const MainPage = () => {
       <WhyUsSection />
       <GallerySection />
       <AboutUsSection />
+      <TeamSection />
     </main>
   );
 };
