@@ -49,13 +49,12 @@ export default ServicesSection;
 
 //styles for the section
 const SectionWrapper = styled.section`
-  padding: 0 5%;
+  padding: 0 10%;
   width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   h2,
   p {
     text-align: center;
@@ -78,7 +77,6 @@ const SectionWrapper = styled.section`
     align-items: center;
     img {
       height: 7rem;
-      margin: 0 3rem;
     }
     .img_txt {
       display: flex;

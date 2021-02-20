@@ -8,22 +8,37 @@ const WhyUsSection = () => {
   return (
     <SectionWrapper>
       <h2>WHY US</h2>
+      <br />
       <p>
-        Find out why people love working with us and why You will want to choose
-        us as well.
+        Find out why people love working with us and why
+        <br /> You will want to choose us as well.
       </p>
+      <br />
+      <br />
       <div className="img-row">
         <div className="img_txt">
           <img src={quality} alt="plane" />
-          <p>Unmatched Quality</p>
+          <br />
+          <p>
+            Unmatched <br />
+            Quality
+          </p>
         </div>
         <div className="img_txt">
           <img src={affordable} alt="plane" />
-          <p>Unbeatable Prices</p>
+          <br />
+          <p>
+            Unbeatable <br />
+            Prices
+          </p>
         </div>
         <div className="img_txt">
           <img src={peace_of_mind} alt="plane" />
-          <p>Peace of Mind</p>
+          <br />
+          <p>
+            Peace of <br />
+            Mind
+          </p>
         </div>
       </div>
     </SectionWrapper>
@@ -34,17 +49,27 @@ export default WhyUsSection;
 
 //styles for the section
 const SectionWrapper = styled.section`
-  padding: 0 5%;
+  padding: 0 10%;
   width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   background-color: #000;
   h2,
   p {
     color: #fff;
+    text-align: center;
+    line-height: 1.6;
+  }
+  h2 {
+    font-size: 3rem;
+    font-family: "Ubuntu";
+    font-weight: 600;
+  }
+  p {
+    font-size: 1.5rem;
+    font-family: open-sans;
   }
   * {
     background-color: transparent;
@@ -55,13 +80,18 @@ const SectionWrapper = styled.section`
     justify-content: space-around;
     align-items: center;
     img {
-      height: 5rem;
+      height: 7rem;
     }
     .img_txt {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
+    }
+    p {
+      font-size: 1.2rem;
+      font-weight: 700;
+      font-family: "Ubuntu";
     }
   }
 `;

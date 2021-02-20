@@ -74,7 +74,8 @@ const Col = styled.div`
 const ContactBTN = styled.button`
   border-radius: 0.2rem;
   padding: 0.7rem 1rem;
-  border: solid 2px #31b0c9;
+  border: solid 2px;
+  border-color: #31b0c9;
   font-size: 1rem;
   font-weight: 600;
   text-decoration: none;
@@ -93,7 +94,8 @@ const ContactBTN = styled.button`
 const LearnMoreBTN = styled.button`
   border-radius: 0.2rem;
   padding: 0.7rem 1rem;
-  border: solid 2px #31b0c9;
+  border: solid 2px;
+  border-color: #31b0c9;
   font-size: 1rem;
   font-weight: 600;
   text-decoration: none;
