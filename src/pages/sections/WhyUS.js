@@ -3,9 +3,13 @@ import styled from "styled-components";
 import quality from "../../assets/quality.svg";
 import affordable from "../../assets/affordable.svg";
 import peace_of_mind from "../../assets/peace_of_mind.svg";
+import { isMobile } from "react-device-detect";
+import MobileWhyUsSection from "./mobile/WhyUS";
 
 const WhyUsSection = () => {
-  return (
+  return isMobile ? (
+    <MobileWhyUsSection />
+  ) : (
     <SectionWrapper>
       <h2>WHY US</h2>
       <br />

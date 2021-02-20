@@ -1,43 +1,40 @@
 import React from "react";
 import styled from "styled-components";
-import { isMobile } from "react-device-detect";
-import MobileToolbar from "../mobile/navigation/Toolbar";
 
-const Toolbar = () => {
-  return isMobile ? (
-    MobileToolbar
-  ) : (
-    <Wrapper>
-      <img
-        className="logo"
-        src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/Logo_lMQcLZB4Wb9N.svg"
-        alt="Logo"
-      />
-      <nav>
-        <ul className="nav_links">
-          <li>
-            <a>Services</a>
-          </li>
-          <li>
-            <a>Why us</a>
-          </li>
-          <li>
-            <a>Gallery</a>
-          </li>
-          <li>
-            <a>About us</a>
-          </li>
-          <li>
-            <a>Testimonials</a>
-          </li>
-        </ul>
-      </nav>
-      <BTN>Contact us</BTN>
-    </Wrapper>
+const MobileToolbar = () => {
+  return (
+      <div></div>
+    // <Wrapper>
+    //   <img
+    //     className="logo"
+    //     src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/Logo_lMQcLZB4Wb9N.svg"
+    //     alt="Logo"
+    //   />
+    //   <nav>
+    //     <ul className="nav_links">
+    //       <li>
+    //         <a>Services</a>
+    //       </li>
+    //       <li>
+    //         <a>Why us</a>
+    //       </li>
+    //       <li>
+    //         <a>Gallery</a>
+    //       </li>
+    //       <li>
+    //         <a>About us</a>
+    //       </li>
+    //       <li>
+    //         <a>Testimonials</a>
+    //       </li>
+    //     </ul>
+    //   </nav>
+    //   <BTN>Contact us</BTN>
+    // </Wrapper>
   );
 };
 
-export default Toolbar;
+export default MobileToolbar;
 
 const Wrapper = styled.div`
   position: fixed;
