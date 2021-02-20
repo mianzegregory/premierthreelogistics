@@ -5,8 +5,9 @@ const TeamSection = () => {
   return (
     <SectionWrapper>
       <h2>OUR TEAM</h2>
-      <p>Meet the wonderful team dedicated to running this company.</p>
       <br />
+      <p>Meet the wonderful team dedicated to running this company.</p>
+      <br /> <br />
       <div className="card-row">
         <PersonCard>
           <div className="img-bg">
@@ -61,11 +62,21 @@ const SectionWrapper = styled.section`
   justify-content: center;
   align-items: center;
   background-color: #fdfdfd;
+  h2,
+  p {
+    text-align: left;
+    line-height: 1.6;
+    text-align: center;
+  }
   h2 {
-    color: #000;
+    font-size: 3rem;
+    font-family: "Ubuntu";
+    font-weight: 600;
   }
   p {
-    color: #707070;
+    font-size: 1.2rem;
+    color: #7d7d7d;
+    font-family: "Open Sans";
   }
   * {
     background-color: transparent;
