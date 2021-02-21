@@ -4,7 +4,7 @@ import ship from "../../../assets/ship.svg";
 
 const MobileMainSection = () => {
   return (
-    <SectionWrapper>
+    <SectionWrapper id="main">
       <h1>
         PREMIER THREE <br />
         LOGISTICS
