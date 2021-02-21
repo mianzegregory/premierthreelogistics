@@ -10,7 +10,7 @@ const WhyUsSection = () => {
   return isMobile ? (
     <MobileWhyUsSection />
   ) : (
-    <SectionWrapper>
+    <SectionWrapper id="whyus">
       <h2>WHY US</h2>
       <br />
       <p>

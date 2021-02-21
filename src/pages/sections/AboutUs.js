@@ -7,7 +7,7 @@ const AboutUsSection = () => {
   return isMobile ? (
     <MobileAboutUsSection />
   ) : (
-    <SectionWrapper>
+    <SectionWrapper id="about">
       <h2>ABOUT US</h2>
       <br />
       <p>

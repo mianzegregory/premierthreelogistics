@@ -7,7 +7,7 @@ const TestimonialSection = () => {
   return isMobile ? (
     <MobileTestimonialSection />
   ) : (
-    <SectionWrapper>
+    <SectionWrapper id="testimonials">
       <h2>CLIENT TESTIMONIALS</h2>
       <br />
       <br />

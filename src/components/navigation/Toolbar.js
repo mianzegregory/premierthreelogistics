@@ -8,31 +8,35 @@ const Toolbar = () => {
     MobileToolbar
   ) : (
     <Wrapper>
-      <img
-        className="logo"
-        src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/Logo_lMQcLZB4Wb9N.svg"
-        alt="Logo"
-      />
+      <a href="#main">
+        <img
+          className="logo"
+          src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/Logo_lMQcLZB4Wb9N.svg"
+          alt="Logo"
+        />
+      </a>
       <nav>
         <ul className="nav_links">
           <li>
-            <a>Services</a>
+            <a href="#services">Services</a>
           </li>
           <li>
-            <a>Why us</a>
+            <a href="#whyus">Why us</a>
           </li>
           <li>
-            <a>Gallery</a>
+            <a href="#gallery">Gallery</a>
           </li>
           <li>
-            <a>About us</a>
+            <a href="#about">About us</a>
           </li>
           <li>
-            <a>Testimonials</a>
+            <a href="#testimonials">Testimonials</a>
           </li>
         </ul>
       </nav>
-      <BTN>Contact us</BTN>
+      <a href="#contact">
+        <BTN>Contact us</BTN>
+      </a>
     </Wrapper>
   );
 };

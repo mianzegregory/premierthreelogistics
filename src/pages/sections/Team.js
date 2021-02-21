@@ -7,7 +7,7 @@ const TeamSection = () => {
   return isMobile ? (
     <MobileTeamSection />
   ) : (
-    <SectionWrapper>
+    <SectionWrapper id="team">
       <h2>OUR TEAM</h2>
       <br />
       <p>Meet the wonderful team dedicated to running this company.</p>

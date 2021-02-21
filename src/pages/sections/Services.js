@@ -10,7 +10,7 @@ const ServicesSection = () => {
   return isMobile ? (
     <MobileServicesSection />
   ) : (
-    <SectionWrapper>
+    <SectionWrapper id="services">
       <h2>OUR SERVICES</h2>
       <br />
       <p>

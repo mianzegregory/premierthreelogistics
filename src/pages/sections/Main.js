@@ -8,7 +8,7 @@ const MainSection = () => {
   return isMobile ? (
     <MobileMainSection />
   ) : (
-    <SectionWrapper>
+    <SectionWrapper id="main">
       <Col>
         <h1>
           PREMIER THREE <br />

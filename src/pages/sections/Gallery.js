@@ -7,7 +7,7 @@ const GallerySection = () => {
   return isMobile ? (
     <MobileGallerySection />
   ) : (
-    <SectionWrapper>
+    <SectionWrapper id="gallery">
       <h2>GALLERY</h2>
       <br />
       <p>
