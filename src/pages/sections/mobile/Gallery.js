@@ -54,12 +54,12 @@ const SectionWrapper = styled.section`
     text-align: center;
   }
   h2 {
-    font-size: 3rem;
+    font-size: 2rem;
     font-family: "Ubuntu";
     font-weight: 600;
   }
   p {
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     color: #7d7d7d;
     font-family: "Open Sans";
   }

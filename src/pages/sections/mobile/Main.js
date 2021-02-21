@@ -42,12 +42,12 @@ const SectionWrapper = styled.section`
     line-height: 1.6;
   }
   h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-family: "Ubuntu";
     font-weight: 600;
   }
   p {
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: #7d7d7d;
     font-family: "Open Sans";
   }
@@ -66,7 +66,7 @@ const ContactBTN = styled.button`
   padding: 0.7rem 1rem;
   border: solid 2px;
   border-color: #31b0c9;
-  font-size: 0.9rem;
+  font-size: 0.7rem;
   margin: 0 0.4rem;
   font-weight: 600;
   text-decoration: none;
@@ -84,7 +84,7 @@ const LearnMoreBTN = styled.button`
   padding: 0.7rem 1rem;
   border: solid 2px;
   border-color: #31b0c9;
-  font-size: 0.9rem;
+  font-size: 0.7rem;
   font-weight: 600;
   text-decoration: none;
   display: inline-block;

@@ -62,12 +62,12 @@ const SectionWrapper = styled.section`
     line-height: 1.6;
   }
   h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-family: "Ubuntu";
     font-weight: 600;
   }
   p {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-family: "Open Sans";
   }
   * {
@@ -83,7 +83,7 @@ const SectionWrapper = styled.section`
       height: 5rem;
     }
     p {
-      font-size: 1rem;
+      font-size: 0.8rem;
       font-weight: 700;
       font-family: "Ubuntu";
     }

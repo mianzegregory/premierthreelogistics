@@ -34,19 +34,6 @@ const MobileTeamSection = () => {
         <h3>Steeve Gregory Mianze</h3>
         <p>UI/UX Designer & Web Developer</p>
       </PersonCard>
-      {/* <PersonCard>
-          <div className="img-bg">
-            <img
-              src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/person_placeholder_gYT9O-we_.png"
-              alt="person-img"
-            />
-          </div>
-          <br />
-          <hr />
-          <br />
-          <h3>Person's name</h3>
-          <p>Role within the company</p>
-        </PersonCard> */}
     </SectionWrapper>
   );
 };
@@ -69,12 +56,12 @@ const SectionWrapper = styled.section`
     text-align: center;
   }
   h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-family: "Ubuntu";
     font-weight: 600;
   }
   p {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     color: #7d7d7d;
     font-family: "Open Sans";
   }
