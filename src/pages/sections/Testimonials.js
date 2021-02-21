@@ -9,89 +9,48 @@ const TestimonialSection = () => {
   ) : (
     <SectionWrapper>
       <h2>CLIENT TESTIMONIALS</h2>
-      <TestimonialCard>
-        <div className="col1" id="person-details">
-          <div className="row">
-            <div className="col">
-              <img
-                className="avatar"
-                src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/testimonials/nicole_dCjX5vm-6.jpg"
-                alt="Guenefe Nicole"
-              />
-            </div>
-            <div className="col">
-              <h4>Guenefe Nicole</h4>
-              <p>HR Officer - United Nations Guinea Bissau</p>
-            </div>
-          </div>
-        </div>
-        <div className="col1" id="person-comment">
+      <br />
+      <br />
+      <div className="card-row">
+        <TestimonialCard>
+          <img
+            className="avatar"
+            src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/testimonials/nicole_dCjX5vm-6.jpg"
+            alt="Guenefe Nicole"
+          />
+          <br />
+          <h4>Guenefe Nicole</h4>
+          <p>HR Officer - United Nations Guinea Bissau</p>
           <p>Lorem ipsum lol... person's comment about the company</p>
-        </div>
-      </TestimonialCard>
-      <hr />
-      <TestimonialCard>
-        <div className="col1" id="person-details">
-          <div className="row">
-            <div className="col">
-              <img
-                className="avatar"
-                src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/testimonials/chim_Wtq_Z2LFb30f.jpg"
-                alt="Chimene Mianze"
-              />
-            </div>
-            <div className="col">
-              <h4>Chimene Mianze</h4>
-              <p>Head of distribution and Digital Banking - Ecobank CAR</p>
-            </div>
-          </div>
-        </div>
-        <div className="col1" id="person-comment">
+        </TestimonialCard>
+        <TestimonialCard>
+          <img
+            className="avatar"
+            src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/testimonials/youssoupha_SnsNdGcqyO.jpg"
+            alt="Youssoupha Niang"
+          />
+          <br />
+          <h4>Youssoupha Niang</h4>
+          <p>Regional Ombudsman and Coordinator - UN Kenya</p>
           <p>Lorem ipsum lol... person's comment about the company</p>
-        </div>
-      </TestimonialCard>
-      <hr />
-      <TestimonialCard>
-        <div className="col1" id="person-details">
-          <div className="row">
-            <div className="col">
-              <img
-                className="avatar"
-                src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/testimonials/eugenes_mom_4SL6hHxV9.jpg"
-                alt="Joyce Deloge"
-              />
-            </div>
-            <div className="col">
-              <h4>Joyce Deloge</h4>
-              <p>Technical Specialist - UNDP Tanzania</p>
-            </div>
-          </div>
-        </div>
-        <div className="col1" id="person-comment">
+        </TestimonialCard>
+        <TestimonialCard>
+          <img
+            className="avatar"
+            src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/testimonials/eugenes_mom_4SL6hHxV9.jpg"
+            alt="Joyce Deloge"
+          />
+          <br />
+          <h4>Joyce Deloge</h4>
+          <p>Technical Specialist - UNDP Tanzania</p>
           <p>Lorem ipsum lol... person's comment about the company</p>
-        </div>
-      </TestimonialCard>
-      <hr />
-      <TestimonialCard>
-        <div className="col1" id="person-details">
-          <div className="row">
-            <div className="col">
-              <img
-                className="avatar"
-                src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/testimonials/youssoupha_SnsNdGcqyO.jpg"
-                alt="Youssoupha Niang"
-              />
-            </div>
-            <div className="col">
-              <h4>Youssoupha Niang</h4>
-              <p>Regional Ombudsman and Coordinator - UN Kenya</p>
-            </div>
-          </div>
-        </div>
-        <div className="col1" id="person-comment">
-          <p>Lorem ipsum lol... person's comment about the company</p>
-        </div>
-      </TestimonialCard>
+        </TestimonialCard>
+      </div>
+      {/* <div className="card-row">
+        <TestimonialCard>
+          
+        </TestimonialCard>
+      </div> */}
     </SectionWrapper>
   );
 };
@@ -109,13 +68,17 @@ const SectionWrapper = styled.section`
   align-items: center;
   background-color: #fff;
   h2,
-  p {
+  h4 p {
     line-height: 1.6;
-    text-align: center;
+  }
+  h4,
+  p {
+    text-align: left;
   }
   h2 {
     font-size: 3rem;
     font-family: "Ubuntu";
+    text-align: center;
     font-weight: 600;
     color: #000;
   }
@@ -124,38 +87,42 @@ const SectionWrapper = styled.section`
     color: #7d7d7d;
     font-family: "Open Sans";
   }
+  hr {
+    width: 40%;
+    border: 0.5px solid #e4e4e4;
+  }
   * {
     background-color: transparent;
+  }
+  .card-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
   }
 `;
 
 //person card
 const TestimonialCard = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin: 1rem 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 0.3rem;
+  lex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff !important;
+  padding: 3rem;
+  width: 30%;
+  h4 {
+    color: #000;
+    text-align: center;
+  }
+  p {
+    color: #707070;
+  }
   .avatar {
     vertical-align: middle;
     width: 3em;
     border-radius: 50%;
-  }
-  .col1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    width: 50%;
-  }
-  .row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .col {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0 0.5rem;
   }
 `;
