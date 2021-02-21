@@ -21,18 +21,6 @@ const MobileTestimonialSection = () => {
       <br />
       <img
         className="avatar"
-        src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/testimonials/chim_Wtq_Z2LFb30f.jpg"
-        alt="Chimene Mianze"
-      />
-      <br />
-      <h4>Chimene Mianze</h4>
-      <p>Head of distribution and Digital Banking - Ecobank CAR</p>
-      <p>Lorem ipsum lol... person's comment about the company</p>
-      <br />
-      <hr />
-      <br />
-      <img
-        className="avatar"
         src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/testimonials/eugenes_mom_4SL6hHxV9.jpg"
         alt="Joyce Deloge"
       />

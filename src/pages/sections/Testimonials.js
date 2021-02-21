@@ -46,11 +46,6 @@ const TestimonialSection = () => {
           <p>Lorem ipsum lol... person's comment about the company</p>
         </TestimonialCard>
       </div>
-      {/* <div className="card-row">
-        <TestimonialCard>
-          
-        </TestimonialCard>
-      </div> */}
     </SectionWrapper>
   );
 };
