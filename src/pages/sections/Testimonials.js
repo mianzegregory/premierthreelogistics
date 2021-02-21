@@ -100,7 +100,7 @@ const SectionWrapper = styled.section`
 
 //person card
 const TestimonialCard = styled.div`
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   border-radius: 0.3rem;
   display: flex;
