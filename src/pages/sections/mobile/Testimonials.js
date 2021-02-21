@@ -5,38 +5,50 @@ const MobileTestimonialSection = () => {
   return (
     <SectionWrapper>
       <h2>CLIENT TESTIMONIALS</h2>
+      <br />
+      <br />
       <img
         className="avatar"
         src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/testimonials/nicole_dCjX5vm-6.jpg"
         alt="Guenefe Nicole"
       />
+      <br />
       <h4>Guenefe Nicole</h4>
       <p>HR Officer - United Nations Guinea Bissau</p>
       <p>Lorem ipsum lol... person's comment about the company</p>
+      <br />
       <hr />
+      <br />
       <img
         className="avatar"
         src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/testimonials/chim_Wtq_Z2LFb30f.jpg"
         alt="Chimene Mianze"
       />
+      <br />
       <h4>Chimene Mianze</h4>
       <p>Head of distribution and Digital Banking - Ecobank CAR</p>
       <p>Lorem ipsum lol... person's comment about the company</p>
+      <br />
       <hr />
+      <br />
       <img
         className="avatar"
         src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/testimonials/eugenes_mom_4SL6hHxV9.jpg"
         alt="Joyce Deloge"
       />
+      <br />
       <h4>Joyce Deloge</h4>
       <p>Technical Specialist - UNDP Tanzania</p>
       <p>Lorem ipsum lol... person's comment about the company</p>
+      <br />
       <hr />
+      <br />
       <img
         className="avatar"
         src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/testimonials/youssoupha_SnsNdGcqyO.jpg"
         alt="Youssoupha Niang"
       />
+      <br />
       <h4>Youssoupha Niang</h4>
       <p>Regional Ombudsman and Coordinator - UN Kenya</p>
       <p>Lorem ipsum lol... person's comment about the company</p>
