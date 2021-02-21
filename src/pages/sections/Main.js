@@ -21,8 +21,12 @@ const MainSection = () => {
         <br />
         <br />
         <div className="btn-row">
-          <ContactBTN>CONTACT US</ContactBTN>
-          <LearnMoreBTN>LEARN MORE</LearnMoreBTN>
+          <a href="#contact">
+            <ContactBTN>CONTACT US</ContactBTN>
+          </a>
+          <a href="#services">
+            <LearnMoreBTN>LEARN MORE</LearnMoreBTN>
+          </a>
         </div>
       </Col>
       <Col>
