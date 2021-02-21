@@ -18,7 +18,7 @@ const ContactSection = () => {
         Or click one of the links down below
       </p>
       <br /> <br />
-      <nav class="footer-social-links">
+      <nav className="footer-social-links">
         {/* <a
           href="https://www.linkedin.com/company/premierthreelogistics"
           target="_blank"
