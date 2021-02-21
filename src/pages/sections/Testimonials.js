@@ -1,8 +1,12 @@
 import React from "react";
 import styled from "styled-components";
+import { isMobile } from "react-device-detect";
+import MobileTestimonialSection from "./mobile/Testimonials";
 
 const TestimonialSection = () => {
-  return (
+  return isMobile ? (
+    <MobileTestimonialSection />
+  ) : (
     <SectionWrapper>
       <h2>CLIENT TESTIMONIALS</h2>
       <TestimonialCard>
