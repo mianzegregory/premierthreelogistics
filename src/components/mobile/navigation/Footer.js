@@ -1,12 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import { isMobile } from "react-device-detect";
-import MobileFooter from "../mobile/navigation/Footer";
 
-const Footer = () => {
-  return isMobile ? (
-    <MobileFooter />
-  ) : (
+const MobileFooter = () => {
+  return (
     <Wrapper>
       <div className="copyrights">
         <p id="first">Premier Three Logistics ltd.</p>
@@ -18,7 +14,7 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default MobileFooter;
 
 const Wrapper = styled.footer`
   bottom: 0;
@@ -28,23 +24,22 @@ const Wrapper = styled.footer`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  .copyrights,
-  p {
+  * {
     background-color: transparent;
-    color: white;
-    font-family: "Ubuntu";
-    line-height: 1.6;
   }
   .copyrights {
-    margin: 10px 80px;
+    p {
+      color: white;
+      font-family: "Ubuntu";
+      line-height: 1.6;
+    }
 
     #first {
-      font-size: 1.5rem;
+      font-size: 1rem;
       font-weight: 600;
     }
     #second {
-      margin-top: 0.1rem;
-      font-size: 0.8rem;
+      font-size: 0.6rem;
     }
   }
 `;
