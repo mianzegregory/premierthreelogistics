@@ -134,10 +134,7 @@ const TestimonialCard = styled.div`
   .avatar {
     vertical-align: middle;
     width: 3em;
-    height: 3rem;
     border-radius: 50%;
-    border: solid 2px #000;
-    bacground-color: blue;
   }
   .col1 {
     display: flex;
