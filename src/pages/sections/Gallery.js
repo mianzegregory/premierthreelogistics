@@ -19,11 +19,6 @@ const GallerySection = () => {
       <br />
       <div className="img-row">
         <img
-          id="img1"
-          src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/1_XO7J5t0ds.jpg"
-          alt="Suzuki Swift"
-        />
-        <img
           id="img2"
           src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/12_GzLGbVU5F.jpg"
           alt="Toyota Vanguard"
@@ -33,6 +28,11 @@ const GallerySection = () => {
           src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/17_K--sTVeVR.jpg"
           alt="Wolfswagen Golf"
         />
+        <img
+          id="img5"
+          src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/3_mLHcMbdGS.jpg"
+          alt="Mercedes"
+        />
       </div>
       <div className="img-row">
         <img
@@ -41,9 +41,9 @@ const GallerySection = () => {
           alt="Hyundai"
         />
         <img
-          id="img5"
-          src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/3_mLHcMbdGS.jpg"
-          alt="Mercedes"
+          id="img1"
+          src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/gallery/vanguard_5tksVFhS7kOD.jpg"
+          alt="Toyota Vanguard"
         />
       </div>
     </SectionWrapper>
