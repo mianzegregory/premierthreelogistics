@@ -11,13 +11,76 @@ const TestimonialSection = () => {
             <div className="col">
               <img
                 className="avatar"
-                src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/team/greg_6GeRaeR1Qv-b.png"
-                alt="Steeve Gregory Mianze"
+                src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/testimonials/nicole_dCjX5vm-6.jpg"
+                alt="Guenefe Nicole"
               />
             </div>
             <div className="col">
-              <h4>Person's name</h4>
-              <p>Person's title</p>
+              <h4>Guenefe Nicole</h4>
+              <p>HR Officer - United Nations Guinea Bissau</p>
+            </div>
+          </div>
+        </div>
+        <div className="col1" id="person-comment">
+          <p>Lorem ipsum lol... person's comment about the company</p>
+        </div>
+      </TestimonialCard>
+      <hr />
+      <TestimonialCard>
+        <div className="col1" id="person-details">
+          <div className="row">
+            <div className="col">
+              <img
+                className="avatar"
+                src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/testimonials/chim_Wtq_Z2LFb30f.jpg"
+                alt="Chimene Mianze"
+              />
+            </div>
+            <div className="col">
+              <h4>Chimene Mianze</h4>
+              <p>Head of distribution and Digital Banking - Ecobank CAR</p>
+            </div>
+          </div>
+        </div>
+        <div className="col1" id="person-comment">
+          <p>Lorem ipsum lol... person's comment about the company</p>
+        </div>
+      </TestimonialCard>
+      <hr />
+      <TestimonialCard>
+        <div className="col1" id="person-details">
+          <div className="row">
+            <div className="col">
+              <img
+                className="avatar"
+                src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/testimonials/eugenes_mom_4SL6hHxV9.jpg"
+                alt="Joyce Deloge"
+              />
+            </div>
+            <div className="col">
+              <h4>Joyce Deloge</h4>
+              <p>Technical Specialist - UNDP Tanzania</p>
+            </div>
+          </div>
+        </div>
+        <div className="col1" id="person-comment">
+          <p>Lorem ipsum lol... person's comment about the company</p>
+        </div>
+      </TestimonialCard>
+      <hr />
+      <TestimonialCard>
+        <div className="col1" id="person-details">
+          <div className="row">
+            <div className="col">
+              <img
+                className="avatar"
+                src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/testimonials/youssoupha_SnsNdGcqyO.jpg"
+                alt="Youssoupha Niang"
+              />
+            </div>
+            <div className="col">
+              <h4>Youssoupha Niang</h4>
+              <p>Regional Ombudsman and Coordinator - UN Kenya</p>
             </div>
           </div>
         </div>
@@ -41,11 +104,21 @@ const SectionWrapper = styled.section`
   justify-content: center;
   align-items: center;
   background-color: #fff;
+  h2,
+  p {
+    line-height: 1.6;
+    text-align: center;
+  }
   h2 {
+    font-size: 3rem;
+    font-family: "Ubuntu";
+    font-weight: 600;
     color: #000;
   }
   p {
-    color: #707070;
+    font-size: 1.2rem;
+    color: #7d7d7d;
+    font-family: "Open Sans";
   }
   * {
     background-color: transparent;
@@ -57,6 +130,7 @@ const TestimonialCard = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin: 1rem 0;
   .avatar {
     vertical-align: middle;
     width: 3em;
@@ -68,7 +142,7 @@ const TestimonialCard = styled.div`
   .col1 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     width: 50%;
   }
