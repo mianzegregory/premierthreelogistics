@@ -6,7 +6,7 @@ import peace_of_mind from "../../../assets/peace_of_mind.svg";
 
 const MobileWhyUsSection = () => {
   return (
-    <SectionWrapper>
+    <SectionWrapper id="whyus">
       <h2>WHY US</h2>
       <br />
       <p>

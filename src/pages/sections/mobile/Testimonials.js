@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const MobileTestimonialSection = () => {
   return (
-    <SectionWrapper>
+    <SectionWrapper id="testimonials">
       <h2>
         CLIENT
         <br />

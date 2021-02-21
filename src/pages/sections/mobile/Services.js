@@ -6,7 +6,7 @@ import customs_clearance from "../../../assets/customs_clearance.svg";
 
 const MobileServicesSection = () => {
   return (
-    <SectionWrapper>
+    <SectionWrapper id="services">
       <h2>OUR SERVICES</h2>
       <br />
       <p>

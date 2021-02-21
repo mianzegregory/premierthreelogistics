@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const MobileGallerySection = () => {
   return (
-    <SectionWrapper>
+    <SectionWrapper id="gallery">
       <h2>GALLERY</h2>
       <br />
       <p>
