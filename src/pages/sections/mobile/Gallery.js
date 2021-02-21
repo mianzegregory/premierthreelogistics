@@ -13,32 +13,6 @@ const MobileGallerySection = () => {
       </p>
       <br />
       <br />
-      {/* <img
-        id="img1"
-        src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/1_XO7J5t0ds.jpg"
-        alt="Suzuki Swift"
-      />
-      <img
-        id="img2"
-        src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/12_GzLGbVU5F.jpg"
-        alt="Toyota Vanguard"
-      />
-      <img
-        id="img3"
-        src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/17_K--sTVeVR.jpg"
-        alt="Wolfswagen Golf"
-      />
-
-      <img
-        id="img4"
-        src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/4_B2aApAOC2lRz.jpg"
-        alt="Hyundai"
-      />
-      <img
-        id="img5"
-        src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/3_mLHcMbdGS.jpg"
-        alt="Mercedes"
-      /> */}
        <img
           src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/12_GzLGbVU5F.jpg"
           alt="Toyota Vanguard"
