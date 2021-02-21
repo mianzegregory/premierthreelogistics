@@ -14,10 +14,10 @@ const MobileTestimonialSection = () => {
       />
       <br />
       <h4>Guenefe Nicole</h4>
-      <p>HR Officer - United Nations Guinea Bissau</p>
-      <p>Lorem ipsum lol... person's comment about the company</p>
+      <p className="title">HR Officer - United Nations Guinea Bissau</p>
       <br />
-      <hr />
+      <p className="comment">Lorem ipsum lol... person's comment about the company</p>
+      <br />
       <br />
       <img
         className="avatar"
@@ -26,10 +26,10 @@ const MobileTestimonialSection = () => {
       />
       <br />
       <h4>Joyce Deloge</h4>
-      <p>Technical Specialist - UNDP Tanzania</p>
-      <p>Lorem ipsum lol... person's comment about the company</p>
+      <p className="title">Technical Specialist - UNDP Tanzania</p>
       <br />
-      <hr />
+      <p className="comment">Lorem ipsum lol... person's comment about the company</p>
+      <br />
       <br />
       <img
         className="avatar"
@@ -38,8 +38,9 @@ const MobileTestimonialSection = () => {
       />
       <br />
       <h4>Youssoupha Niang</h4>
-      <p>Regional Ombudsman and Coordinator - UN Kenya</p>
-      <p>Lorem ipsum lol... person's comment about the company</p>
+      <p className="title">Regional Ombudsman and Coordinator - UN Kenya</p>
+      <br />
+      <p className="comment">Lorem ipsum lol... person's comment about the company</p>
     </SectionWrapper>
   );
 };
@@ -72,6 +73,15 @@ const SectionWrapper = styled.section`
     font-size: 0.9rem;
     color: #7d7d7d;
     font-family: "Open Sans";
+  }
+  .title {
+    font-size: 0.7rem;
+    color: #000;
+    font-weight: 600;
+  }
+  .comment {
+    font-size: 0.9rem;
+    font-weight: 600;
   }
   .avatar {
     vertical-align: middle;
