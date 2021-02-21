@@ -1,12 +1,9 @@
 import React from "react";
 import styled from "styled-components";
-import { isMobile } from "react-device-detect";
-import MobileContactSection from "./mobile/Contact";
+// import { isMobile } from "react-device-detect";
 
-const ContactSection = () => {
-  return isMobile ? (
-    <MobileContactSection />
-  ) : (
+const MobileContactSection = () => {
+  return (
     <SectionWrapper id="contact">
       <h2>CONTACT US</h2>
       <br />
@@ -60,7 +57,7 @@ const ContactSection = () => {
   );
 };
 
-export default ContactSection;
+export default MobileContactSection;
 
 //styles for the section
 const SectionWrapper = styled.section`
@@ -77,12 +74,12 @@ const SectionWrapper = styled.section`
     text-align: center;
   }
   h2 {
-    font-size: 3rem;
+    font-size: 2rem;
     font-family: "Ubuntu";
     font-weight: 600;
   }
   p {
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     color: #7d7d7d;
     font-family: "Open Sans";
   }
@@ -110,7 +107,7 @@ const SectionWrapper = styled.section`
     color: #000;
   }
   .contact-info {
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: #000;
     font-weight: 600;
   }

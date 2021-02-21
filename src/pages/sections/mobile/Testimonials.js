@@ -4,7 +4,11 @@ import styled from "styled-components";
 const MobileTestimonialSection = () => {
   return (
     <SectionWrapper>
-      <h2>CLIENT TESTIMONIALS</h2>
+      <h2>
+        CLIENT
+        <br />
+        TESTIMONIALS
+      </h2>
       <br />
       <br />
       <img
@@ -16,7 +20,9 @@ const MobileTestimonialSection = () => {
       <h4>Guenefe Nicole</h4>
       <p className="title">HR Officer - United Nations Guinea Bissau</p>
       <br />
-      <p className="comment">Lorem ipsum lol... person's comment about the company</p>
+      <p className="comment">
+        Lorem ipsum lol... person's comment about the company
+      </p>
       <br />
       <br />
       <img
@@ -28,7 +34,9 @@ const MobileTestimonialSection = () => {
       <h4>Joyce Deloge</h4>
       <p className="title">Technical Specialist - UNDP Tanzania</p>
       <br />
-      <p className="comment">Lorem ipsum lol... person's comment about the company</p>
+      <p className="comment">
+        Lorem ipsum lol... person's comment about the company
+      </p>
       <br />
       <br />
       <img
@@ -40,7 +48,9 @@ const MobileTestimonialSection = () => {
       <h4>Youssoupha Niang</h4>
       <p className="title">Regional Ombudsman and Coordinator - UN Kenya</p>
       <br />
-      <p className="comment">Lorem ipsum lol... person's comment about the company</p>
+      <p className="comment">
+        Lorem ipsum lol... person's comment about the company
+      </p>
     </SectionWrapper>
   );
 };
