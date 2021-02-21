@@ -13,7 +13,7 @@ const MobileGallerySection = () => {
       </p>
       <br />
       <br />
-      <img
+      {/* <img
         id="img1"
         src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/1_XO7J5t0ds.jpg"
         alt="Suzuki Swift"
@@ -38,7 +38,27 @@ const MobileGallerySection = () => {
         id="img5"
         src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/3_mLHcMbdGS.jpg"
         alt="Mercedes"
-      />
+      /> */}
+       <img
+          src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/12_GzLGbVU5F.jpg"
+          alt="Toyota Vanguard"
+        />
+        <img
+          src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/17_K--sTVeVR.jpg"
+          alt="Wolfswagen Golf"
+        />
+        <img
+          src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/3_mLHcMbdGS.jpg"
+          alt="Mercedes"
+        />
+        <img
+          src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/4_B2aApAOC2lRz.jpg"
+          alt="Hyundai"
+        />
+        <img
+          src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/gallery/vanguard_5tksVFhS7kOD.jpg"
+          alt="Toyota Vanguard"
+        />
     </SectionWrapper>
   );
 };
@@ -72,15 +92,7 @@ const SectionWrapper = styled.section`
   * {
     background-color: transparent;
   }
-
   img {
-    height: 5rem;
-  }
-  #img1,
-  #img2,
-  #img3,
-  #img4,
-  #img5 {
     max-width: 100%;
     margin: 0.1rem;
   }

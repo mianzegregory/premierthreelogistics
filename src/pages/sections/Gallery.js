@@ -19,29 +19,24 @@ const GallerySection = () => {
       <br />
       <div className="img-row">
         <img
-          id="img2"
           src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/12_GzLGbVU5F.jpg"
           alt="Toyota Vanguard"
         />
         <img
-          id="img3"
           src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/17_K--sTVeVR.jpg"
           alt="Wolfswagen Golf"
         />
         <img
-          id="img5"
           src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/3_mLHcMbdGS.jpg"
           alt="Mercedes"
         />
       </div>
       <div className="img-row">
         <img
-          id="img4"
           src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/4_B2aApAOC2lRz.jpg"
           alt="Hyundai"
         />
         <img
-          id="img1"
           src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/gallery/vanguard_5tksVFhS7kOD.jpg"
           alt="Toyota Vanguard"
         />
@@ -85,13 +80,6 @@ const SectionWrapper = styled.section`
     justify-content: space-around;
     align-items: center;
     img {
-      height: 5rem;
-    }
-    #img1,
-    #img2,
-    #img3,
-    #img4,
-    #img5 {
       height: 20rem;
       margin: 0.1rem;
     }
