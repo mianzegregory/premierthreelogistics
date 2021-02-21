@@ -96,6 +96,9 @@ const ContactBTN = styled.button`
   :hover {
     font-size: 1.2rem;
   }
+  @media(max-width: 1366px) {
+    font-size: 0.9rem;
+  }
 `;
 
 //learn more button
@@ -115,5 +118,8 @@ const LearnMoreBTN = styled.button`
   font-weight: 600;
   :hover {
     font-size: 1.2rem;
+  }
+  @media(max-width: 1366px) {
+    font-size: 0.9rem;
   }
 `;
