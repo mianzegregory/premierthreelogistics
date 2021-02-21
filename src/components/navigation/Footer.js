@@ -6,7 +6,9 @@ const Footer = () => {
     <Wrapper>
       <div className="copyrights">
         <p id="first">Premier Three Logistics ltd.</p>
-        <p id="second">&#169; All rights reserved | 2020</p>
+        <p id="second">
+          &#169; All rights reserved | 2021 - Powered by Premier Three Studio
+        </p>
       </div>
     </Wrapper>
   );
@@ -17,8 +19,8 @@ export default Footer;
 const Wrapper = styled.footer`
   bottom: 0;
   width: 100%;
-  padding: 0.5rem 10%;
-  background-color: #13444e;
+  padding: 0.3rem 10%;
+  background-color: #000;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -26,6 +28,8 @@ const Wrapper = styled.footer`
   p {
     background-color: transparent;
     color: white;
+    font-family: "Ubuntu";
+    line-height: 1.6;
   }
   .copyrights {
     margin: 10px 80px;
@@ -35,7 +39,7 @@ const Wrapper = styled.footer`
       font-weight: 600;
     }
     #second {
-      margin-top: 0.5rem;
+      margin-top: 0.1rem;
       font-size: 0.8rem;
     }
   }

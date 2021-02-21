@@ -2,6 +2,7 @@ import "./App.css";
 import BackToTopBtn from "./components/buttons/BackToTop";
 import Toolbar from "./components/navigation/Toolbar";
 import MainPage from "./pages/Single";
+import Footer from "./components/navigation/Footer";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Toolbar />
       <MainPage />
       <BackToTopBtn />
+      <Footer />
     </div>
   );
 }
