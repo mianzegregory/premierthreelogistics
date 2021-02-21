@@ -15,7 +15,7 @@ const MobileMainSection = () => {
       </p>
       <br />
       <br />
-      <img src={ship} alt="ship image" />
+      <img src={ship} alt="ship" />
       <div className="btn-row">
         <a href="#contact"><ContactBTN>CONTACT US</ContactBTN></a>
         <a href="#services"><LearnMoreBTN>LEARN MORE</LearnMoreBTN></a>

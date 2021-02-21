@@ -30,7 +30,7 @@ const MainSection = () => {
         </div>
       </Col>
       <Col>
-        <img src={ship} alt="ship image" />
+        <img src={ship} alt="ship" />
       </Col>
     </SectionWrapper>
   );
