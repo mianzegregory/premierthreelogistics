@@ -21,8 +21,11 @@ const TestimonialSection = () => {
           <br />
           <h4>Guenefe Nicole</h4>
           <p className="title">HR Officer - United Nations Guinea Bissau</p>
-          <br/>
-          <p className="comment">Lorem ipsum lol... person's comment about the company</p>
+          <br />
+          <p className="comment">
+            A solid 5 star experience. Goods delivered on time, with courtesy
+            and care.
+          </p>
         </TestimonialCard>
         <TestimonialCard>
           <img
@@ -33,8 +36,8 @@ const TestimonialSection = () => {
           <br />
           <h4>Youssoupha Niang</h4>
           <p className="title">Regional Ombudsman and Coordinator - UN Kenya</p>
-          <br/>
-          <p className="comment">Lorem ipsum lol... person's comment about the company</p>
+          <br />
+          <p className="comment">Outstanding delivery company.</p>
         </TestimonialCard>
         <TestimonialCard>
           <img
@@ -45,8 +48,12 @@ const TestimonialSection = () => {
           <br />
           <h4>Joyce Deloge</h4>
           <p className="title">Technical Specialist - UNDP Tanzania</p>
-          <br/>
-          <p className="comment">Lorem ipsum lol... person's comment about the company</p>
+          <br />
+          <p className="comment">
+            My experience was above expectation, pick up and delivery was prompt
+            even during the lockdown period which I was worried about. The
+            process was hustle free and I will definitely use them again.
+          </p>
         </TestimonialCard>
       </div>
     </SectionWrapper>
@@ -105,11 +112,12 @@ const TestimonialCard = styled.div`
   border-radius: 0.3rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   background-color: #fff !important;
   padding: 3rem;
   width: 30%;
+  height: 20rem;
   h4 {
     color: #000;
     text-align: center;
@@ -123,7 +131,7 @@ const TestimonialCard = styled.div`
     font-weight: 600;
   }
   .comment {
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 600;
   }
   .avatar {

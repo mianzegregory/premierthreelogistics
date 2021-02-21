@@ -21,7 +21,8 @@ const MobileTestimonialSection = () => {
       <p className="title">HR Officer - United Nations Guinea Bissau</p>
       <br />
       <p className="comment">
-        Lorem ipsum lol... person's comment about the company
+        A solid 5 star experience. Goods delivered on time, with courtesy and
+        care.
       </p>
       <br />
       <br />
@@ -35,7 +36,9 @@ const MobileTestimonialSection = () => {
       <p className="title">Technical Specialist - UNDP Tanzania</p>
       <br />
       <p className="comment">
-        Lorem ipsum lol... person's comment about the company
+        My experience was above expectation, pick up and delivery was prompt
+        even during the lockdown period which I was worried about. The process
+        was hustle free and I will definitely use them again.
       </p>
       <br />
       <br />
@@ -48,9 +51,7 @@ const MobileTestimonialSection = () => {
       <h4>Youssoupha Niang</h4>
       <p className="title">Regional Ombudsman and Coordinator - UN Kenya</p>
       <br />
-      <p className="comment">
-        Lorem ipsum lol... person's comment about the company
-      </p>
+      <p className="comment">Outstanding delivery company.</p>
     </SectionWrapper>
   );
 };
