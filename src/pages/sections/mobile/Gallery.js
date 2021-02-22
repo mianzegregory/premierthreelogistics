@@ -5,14 +5,11 @@ const MobileGallerySection = () => {
   return (
     <SectionWrapper id="gallery">
       <h2>GALLERY</h2>
-      <br />
       <p>
         Some of the products we delivered to our customers. Visit our social
         <br />
         Media pages for more.
       </p>
-      <br />
-      <br />
        <img
           src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/12_GzLGbVU5F.jpg"
           alt="Toyota Vanguard"
@@ -52,6 +49,7 @@ const SectionWrapper = styled.section`
     text-align: left;
     line-height: 1.6;
     text-align: center;
+    margin-bottom: 2rem;
   }
   h2 {
     font-size: 2rem;

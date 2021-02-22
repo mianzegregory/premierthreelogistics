@@ -55,18 +55,17 @@ const Col = styled.div`
   p {
     text-align: left;
     line-height: 1.6;
+    margin-bottom: 2rem;
   }
   h1 {
     font-size: 3rem;
     font-family: "Ubuntu";
     font-weight: 600;
-    margin-bottom: 2rem;
   }
   p {
     font-size: 1.2rem;
     color: #7d7d7d;
     font-family: "Open Sans";
-    margin-bottom: 2rem;
   }
   .btn-row {
     display: flex;

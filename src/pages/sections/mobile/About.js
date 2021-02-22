@@ -5,7 +5,6 @@ const MobileAboutUsSection = () => {
   return (
     <SectionWrapper id="about">
       <h2>ABOUT US</h2>
-      <br />
       <p>
         We are a general supplies company based in Mombasa, Kenya with satellite
         bases in Nairobi, Rwanda and the <br />
@@ -15,8 +14,6 @@ const MobileAboutUsSection = () => {
         Rwanda and central <br />
         African markets.
       </p>
-      <br />
-      <br />
       <p>
         We provide full solutions for small enterprises and multinationals
         covering all local aspects with in-house <br />
@@ -24,11 +21,8 @@ const MobileAboutUsSection = () => {
         part due to our Director’s diversity, <br />
         Logistics expertise and dedication to customer service.
       </p>
-      <br />
-      <br />
         <MVCard>
           <h3>MISSION</h3>
-          <br />
           <p>
             Provide our esteemed clientele with quality services that not only
             meet but exceed their Expectations.
@@ -36,7 +30,6 @@ const MobileAboutUsSection = () => {
         </MVCard>
         <MVCard>
           <h3>VISION</h3>
-          <br />
           <p>
             Build long-term relationships with our Customers and provide them
             with Exceptional services.
@@ -63,6 +56,7 @@ const SectionWrapper = styled.section`
     color: #fff;
     text-align: center;
     line-height: 1.6;
+    margin-bottom: 2rem;
   }
   h2 {
     font-size: 2rem;
@@ -93,6 +87,7 @@ const MVCard = styled.div`
   h3 {
     color: #000;
     text-align: center;
+    margin-bottom: 2rem;
   }
   p {
     color: #707070;

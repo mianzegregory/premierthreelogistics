@@ -8,16 +8,12 @@ const MobileWhyUsSection = () => {
   return (
     <SectionWrapper id="whyus">
       <h2>WHY US</h2>
-      <br />
       <p>
         Find out why people love working with us and why
         <br /> You will want to choose us as well.
       </p>
-      <br />
-      <br />
       <div className="img_txt">
         <img src={quality} alt="plane" />
-        <br />
         <p>
           Unmatched <br />
           Quality
@@ -25,7 +21,6 @@ const MobileWhyUsSection = () => {
       </div>
       <div className="img_txt">
         <img src={affordable} alt="plane" />
-        <br />
         <p>
           Unbeatable <br />
           Prices
@@ -33,7 +28,6 @@ const MobileWhyUsSection = () => {
       </div>
       <div className="img_txt">
         <img src={peace_of_mind} alt="plane" />
-        <br />
         <p>
           Peace of <br />
           Mind
@@ -60,6 +54,7 @@ const SectionWrapper = styled.section`
     color: #fff;
     text-align: center;
     line-height: 1.6;
+    margin-bottom: 2rem;
   }
   h2 {
     font-size: 2rem;
@@ -81,11 +76,13 @@ const SectionWrapper = styled.section`
     align-items: center;
     img {
       height: 5rem;
+      margin-bottom: 1rem;
     }
     p {
       font-size: 0.8rem;
       font-weight: 700;
       font-family: "Ubuntu";
+      margin-bottom: 0;
     }
   }
 `;

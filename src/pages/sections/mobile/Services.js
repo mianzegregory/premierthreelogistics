@@ -8,16 +8,12 @@ const MobileServicesSection = () => {
   return (
     <SectionWrapper id="services">
       <h2>OUR SERVICES</h2>
-      <br />
       <p>
         We are dedicated to satisfying our customers with
         <br /> Our comprehensive list of services
       </p>
-      <br />
-      <br />
       <div className="img_txt">
         <img src={intl_freight} alt="plane" />
-        <br />
         <p>
           International
           <br /> Freight
@@ -25,7 +21,6 @@ const MobileServicesSection = () => {
       </div>
       <div className="img_txt">
         <img src={delivery} alt="plane" />
-        <br />
         <p>
           Delivery of <br />
           Goods
@@ -33,7 +28,6 @@ const MobileServicesSection = () => {
       </div>
       <div className="img_txt">
         <img src={customs_clearance} alt="plane" />
-        <br />
         <p>
           Customs <br />
           Clearance
@@ -58,6 +52,7 @@ const SectionWrapper = styled.section`
   p {
     text-align: center;
     line-height: 1.6;
+    margin-bottom: 2rem;
   }
   h2 {
     font-size: 2rem;
@@ -73,6 +68,7 @@ const SectionWrapper = styled.section`
       margin: 1.5rem 0;
     img {
       height: 5rem;
+      margin-bottom: 1rem;
     }
     display: flex;
     flex-direction: column;
@@ -83,6 +79,7 @@ const SectionWrapper = styled.section`
       font-size: 0.8rem;
       font-weight: 700;
       font-family: "Ubuntu";
+      margin-bottom: 0;
     }
   }
 `;

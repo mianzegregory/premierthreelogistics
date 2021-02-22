@@ -5,9 +5,7 @@ const MobileTeamSection = () => {
   return (
     <SectionWrapper id="team">
       <h2>OUR TEAM</h2>
-      <br />
       <p>Meet the wonderful team dedicated to running this company.</p>
-      <br /> <br />
       <PersonCard>
         <div className="img-bg">
           <img
@@ -54,6 +52,7 @@ const SectionWrapper = styled.section`
   p {
     line-height: 1.6;
     text-align: center;
+    margin-bottom: 2rem;
   }
   h2 {
     font-size: 2rem;

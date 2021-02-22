@@ -6,7 +6,6 @@ const MobileContactSection = () => {
   return (
     <SectionWrapper id="contact">
       <h2>CONTACT US</h2>
-      <br />
       <p>
         Have an enquiry or some feedback for us?
         <br />
@@ -14,7 +13,6 @@ const MobileContactSection = () => {
         <br />
         Or click one of the links down below
       </p>
-      <br /> <br />
       <nav class="footer-social-links">
         {/* <a
           href="https://www.linkedin.com/company/premierthreelogistics"
@@ -50,7 +48,6 @@ const MobileContactSection = () => {
           <i class="mdi mdi-phone"></i>
         </a>
       </nav>
-      <br /> <br />
       <p className="contact-info">Email: info@premierthreelogistics.com</p>
       <p className="contact-info">Phone Number: +254-719-655-469</p>
     </SectionWrapper>
@@ -72,6 +69,7 @@ const SectionWrapper = styled.section`
   p {
     line-height: 1.6;
     text-align: center;
+    margin-bottom: 2rem;
   }
   h2 {
     font-size: 2rem;
@@ -85,6 +83,9 @@ const SectionWrapper = styled.section`
   }
   * {
     background-color: transparent;
+  }
+  .footer-social-links {
+    margin-bottom: 2rem;
   }
   .footer-social-links .social-link {
     display: inline-block;
@@ -110,5 +111,6 @@ const SectionWrapper = styled.section`
     font-size: 0.8rem;
     color: #000;
     font-weight: 600;
+    margin-bottom: 0;
   }
 `;

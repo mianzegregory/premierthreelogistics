@@ -9,12 +9,9 @@ const MobileMainSection = () => {
         PREMIER THREE <br />
         LOGISTICS
       </h1>
-      <br />
       <p>
         One stop solution for all your logistics <br /> And shipping needs.
       </p>
-      <br />
-      <br />
       <img src={ship} alt="ship" />
       <div className="btn-row">
         <a href="#contact"><ContactBTN>CONTACT US</ContactBTN></a>
@@ -40,6 +37,7 @@ const SectionWrapper = styled.section`
   p {
     text-align: center;
     line-height: 1.6;
+    margin-bottom: 2rem;
   }
   h1 {
     font-size: 2rem;
@@ -50,6 +48,9 @@ const SectionWrapper = styled.section`
     font-size: 0.8rem;
     color: #7d7d7d;
     font-family: "Open Sans";
+  }
+  img {
+    margin-bottom: 2rem;
   }
   .btn-row {
     display: flex;
@@ -66,7 +67,7 @@ const ContactBTN = styled.button`
   padding: 0.7rem 1rem;
   border: solid 2px;
   border-color: #31b0c9;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   margin: 0 0.4rem;
   font-weight: 600;
   text-decoration: none;
@@ -84,7 +85,7 @@ const LearnMoreBTN = styled.button`
   padding: 0.7rem 1rem;
   border: solid 2px;
   border-color: #31b0c9;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   font-weight: 600;
   text-decoration: none;
   display: inline-block;
