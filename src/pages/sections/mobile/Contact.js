@@ -25,7 +25,7 @@ const MobileContactSection = () => {
         <a
           href="https://www.instagram.com/premierthreelogistics"
           target="_blank"
-          rel="noreferrer noopener"
+          rel="noreferrer noopener nofollow"
           class="social-link"
         >
           <i class="mdi mdi-instagram"></i>
@@ -40,11 +40,18 @@ const MobileContactSection = () => {
         </a> */}
         <a
           href="mailto:info@premierthreelogistics.com?subject=Enquiry"
+          target="_blank"
+          rel="noreferrer noopener nofollow"
           class="social-link"
         >
           <i class="mdi mdi-google"></i>
         </a>
-        <a href="tel:+254-719-655-469" class="social-link">
+        <a
+          href="tel:+254-719-655-469"
+          target="_blank"
+          rel="noreferrer noopener nofollow"
+          class="social-link"
+        >
           <i class="mdi mdi-phone"></i>
         </a>
       </nav>
