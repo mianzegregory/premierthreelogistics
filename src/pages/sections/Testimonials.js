@@ -9,8 +9,6 @@ const TestimonialSection = () => {
   ) : (
     <SectionWrapper id="testimonials">
       <h2>CLIENT TESTIMONIALS</h2>
-      <br />
-      <br />
       <div className="card-row">
         <TestimonialCard>
           <img
@@ -18,10 +16,8 @@ const TestimonialSection = () => {
             src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/testimonials/nicole_dCjX5vm-6.jpg"
             alt="Guenefe Nicole"
           />
-          <br />
           <h4>Guenefe Nicole</h4>
           <p className="title">HR Officer - United Nations Guinea Bissau</p>
-          <br />
           <p className="comment">
             A solid 5 star experience. Goods delivered on time, with courtesy
             and care.
@@ -33,10 +29,8 @@ const TestimonialSection = () => {
             src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/testimonials/youssoupha_SnsNdGcqyO.jpg"
             alt="Youssoupha Niang"
           />
-          <br />
           <h4>Youssoupha Niang</h4>
           <p className="title">Regional Ombudsman and Coordinator - UN Kenya</p>
-          <br />
           <p className="comment">Outstanding delivery company.</p>
         </TestimonialCard>
         <TestimonialCard>
@@ -45,10 +39,8 @@ const TestimonialSection = () => {
             src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/testimonials/eugenes_mom_4SL6hHxV9.jpg"
             alt="Joyce Deloge"
           />
-          <br />
           <h4>Joyce Deloge</h4>
           <p className="title">Technical Specialist - UNDP Tanzania</p>
-          <br />
           <p className="comment">
             My experience was above expectation, pick up and delivery was prompt
             even during the lockdown period which I was worried about. The
@@ -84,6 +76,7 @@ const SectionWrapper = styled.section`
     text-align: center;
     font-weight: 600;
     color: #000;
+    margin-bottom: 2rem;
   }
   p {
     font-size: 1.2rem;
@@ -129,6 +122,7 @@ const TestimonialCard = styled.div`
     font-size: 0.7rem;
     color: #000;
     font-weight: 600;
+    margin-bottom: 1rem;
   }
   .comment {
     font-size: 0.8rem;
@@ -138,5 +132,6 @@ const TestimonialCard = styled.div`
     vertical-align: middle;
     width: 3em;
     border-radius: 50%;
+    margin-bottom: 2rem;
   }
 `;

@@ -9,14 +9,11 @@ const GallerySection = () => {
   ) : (
     <SectionWrapper id="gallery">
       <h2>GALLERY</h2>
-      <br />
       <p>
         Some of the products we delivered to our customers. Visit our social
         <br />
         Media pages for more.
       </p>
-      <br />
-      <br />
       <div className="img-row">
         <img
           src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/12_GzLGbVU5F.jpg"
@@ -51,6 +48,7 @@ export default GallerySection;
 const SectionWrapper = styled.section`
   padding: 10%;
   width: 100vw;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -60,6 +58,7 @@ const SectionWrapper = styled.section`
     text-align: left;
     line-height: 1.6;
     text-align: center;
+    margin-bottom: 2rem;
   }
   h2 {
     font-size: 3rem;

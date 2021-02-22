@@ -9,7 +9,6 @@ const ContactSection = () => {
   ) : (
     <SectionWrapper id="contact">
       <h2>CONTACT US</h2>
-      <br />
       <p>
         Have an enquiry or some feedback for us?
         <br />
@@ -17,43 +16,41 @@ const ContactSection = () => {
         <br />
         Or click one of the links down below
       </p>
-      <br /> <br />
       <nav className="footer-social-links">
         {/* <a
           href="https://www.linkedin.com/company/premierthreelogistics"
           target="_blank"
           rel="noreferrer noopener"
-          class="social-link"
+          className="social-link"
         >
-          <i class="mdi mdi-linkedin"></i>
+          <i className="mdi mdi-linkedin"></i>
         </a> */}
         <a
           href="https://www.instagram.com/premierthreelogistics"
           target="_blank"
           rel="noreferrer noopener"
-          class="social-link"
+          className="social-link"
         >
-          <i class="mdi mdi-instagram"></i>
+          <i className="mdi mdi-instagram"></i>
         </a>
         {/* <a
           href="https://www.facebook.com/Premier-3-Logistics-107800514302439"
           target="_blank"
           rel="noreferrer noopener"
-          class="social-link"
+          className="social-link"
         >
-          <i class="mdi mdi-facebook-box"></i>
+          <i className="mdi mdi-facebook-box"></i>
         </a> */}
         <a
           href="mailto:info@premierthreelogistics.com?subject=Enquiry"
-          class="social-link"
+          className="social-link"
         >
-          <i class="mdi mdi-google"></i>
+          <i className="mdi mdi-google"></i>
         </a>
         <a href="tel:+254-719-655-469" class="social-link">
-          <i class="mdi mdi-phone"></i>
+          <i className="mdi mdi-phone"></i>
         </a>
       </nav>
-      <br /> <br />
       <p className="contact-info">Email: info@premierthreelogistics.com</p>
       <p className="contact-info">Phone Number: +254-719-655-469</p>
     </SectionWrapper>
@@ -75,6 +72,7 @@ const SectionWrapper = styled.section`
   p {
     line-height: 1.6;
     text-align: center;
+    margin-bottom: 2rem;
   }
   h2 {
     font-size: 3rem;
@@ -88,6 +86,9 @@ const SectionWrapper = styled.section`
   }
   * {
     background-color: transparent;
+  }
+  .footer-social-links {
+    margin-bottom: 2rem;
   }
   .footer-social-links .social-link {
     display: inline-block;
@@ -113,5 +114,6 @@ const SectionWrapper = styled.section`
     font-size: 1rem;
     color: #000;
     font-weight: 600;
+    margin-bottom: 0;
   }
 `;

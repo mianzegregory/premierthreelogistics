@@ -9,9 +9,7 @@ const TeamSection = () => {
   ) : (
     <SectionWrapper id="team">
       <h2>OUR TEAM</h2>
-      <br />
       <p>Meet the wonderful team dedicated to running this company.</p>
-      <br /> <br />
       <div className="card-row">
         <PersonCard>
           <div className="img-bg">
@@ -39,19 +37,6 @@ const TeamSection = () => {
           <h3>Steeve Gregory Mianze</h3>
           <p>UI/UX Designer & Web Developer</p>
         </PersonCard>
-        {/* <PersonCard>
-          <div className="img-bg">
-            <img
-              src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/person_placeholder_gYT9O-we_.png"
-              alt="person-img"
-            />
-          </div>
-          <br />
-          <hr />
-          <br />
-          <h3>Person's name</h3>
-          <p>Role within the company</p>
-        </PersonCard> */}
       </div>
     </SectionWrapper>
   );
@@ -73,6 +58,7 @@ const SectionWrapper = styled.section`
   p {
     line-height: 1.6;
     text-align: center;
+    margin-bottom: 2rem;
   }
   h2 {
     font-size: 3rem;

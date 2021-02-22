@@ -12,17 +12,13 @@ const WhyUsSection = () => {
   ) : (
     <SectionWrapper id="whyus">
       <h2>WHY US</h2>
-      <br />
       <p>
         Find out why people love working with us and why
         <br /> You will want to choose us as well.
-      </p>
-      <br />
-      <br />
+      </p> 
       <div className="img-row">
         <div className="img_txt">
           <img src={quality} alt="plane" />
-          <br />
           <p>
             Unmatched <br />
             Quality
@@ -30,7 +26,6 @@ const WhyUsSection = () => {
         </div>
         <div className="img_txt">
           <img src={affordable} alt="plane" />
-          <br />
           <p>
             Unbeatable <br />
             Prices
@@ -38,7 +33,6 @@ const WhyUsSection = () => {
         </div>
         <div className="img_txt">
           <img src={peace_of_mind} alt="plane" />
-          <br />
           <p>
             Peace of <br />
             Mind
@@ -65,6 +59,7 @@ const SectionWrapper = styled.section`
     color: #fff;
     text-align: center;
     line-height: 1.6;
+    margin-bottom: 2rem;
   }
   h2 {
     font-size: 3rem;
@@ -85,6 +80,7 @@ const SectionWrapper = styled.section`
     align-items: center;
     img {
       height: 7rem;
+      margin-bottom: 1rem;
     }
     .img_txt {
       display: flex;
@@ -96,6 +92,7 @@ const SectionWrapper = styled.section`
       font-size: 1.2rem;
       font-weight: 700;
       font-family: "Ubuntu";
+      margin-bottom: 0;
     }
   }
 `;

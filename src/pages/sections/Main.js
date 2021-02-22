@@ -14,12 +14,9 @@ const MainSection = () => {
           PREMIER THREE <br />
           LOGISTICS
         </h1>
-        <br />
         <p>
           One stop solution for all your logistics <br /> And shipping needs.
         </p>
-        <br />
-        <br />
         <div className="btn-row">
           <a href="#contact">
             <ContactBTN>CONTACT US</ContactBTN>
@@ -63,11 +60,13 @@ const Col = styled.div`
     font-size: 3rem;
     font-family: "Ubuntu";
     font-weight: 600;
+    margin-bottom: 2rem;
   }
   p {
     font-size: 1.2rem;
     color: #7d7d7d;
     font-family: "Open Sans";
+    margin-bottom: 2rem;
   }
   .btn-row {
     display: flex;
