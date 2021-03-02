@@ -19,7 +19,7 @@ const MobileTeamSection = () => {
         <h3>Jean Tristan Mianze</h3>
         <p>Director & Logistics Specialist</p>
       </PersonCard>
-      <PersonCard>
+      {/* <PersonCard>
         <div className="img-bg" id="img-bg2">
           <img
             src="https://ik.imagekit.io/sgmianze96/PremierThreeLogistics/team/greg_6GeRaeR1Qv-b.png"
@@ -31,7 +31,7 @@ const MobileTeamSection = () => {
         <br />
         <h3>Steeve Gregory Mianze</h3>
         <p>UI/UX Designer & Web Developer</p>
-      </PersonCard>
+      </PersonCard> */}
     </SectionWrapper>
   );
 };
