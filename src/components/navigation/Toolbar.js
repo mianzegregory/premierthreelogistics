@@ -5,7 +5,7 @@ import MobileToolbar from "../mobile/navigation/Toolbar";
 
 const Toolbar = () => {
   return isMobile ? (
-    MobileToolbar
+    <MobileToolbar />
   ) : (
     <Wrapper>
       <a href="#main">
