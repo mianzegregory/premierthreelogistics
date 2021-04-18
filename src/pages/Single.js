@@ -16,7 +16,7 @@ const MainPage = () => {
       <WhyUsSection />
       <GallerySection />
       <AboutUsSection />
-      <TeamSection />
+      {/* <TeamSection /> */}
       <TestimonialSection />
       <ContactSection />
     </main>
