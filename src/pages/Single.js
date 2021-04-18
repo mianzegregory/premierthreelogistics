@@ -4,7 +4,7 @@ import ServicesSection from "./sections/Services";
 import WhyUsSection from "./sections/WhyUS";
 import GallerySection from "./sections/Gallery";
 import AboutUsSection from "./sections/AboutUs";
-import TeamSection from "./sections/Team";
+// import TeamSection from "./sections/Team";
 import TestimonialSection from "./sections/Testimonials";
 import ContactSection from "./sections/Contact";
 
